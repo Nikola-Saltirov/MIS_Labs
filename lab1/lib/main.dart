@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lab1/screens/details.dart';
-import 'package:lab1/screens/home.dart';
+import 'package:lab1/screens/Details.dart';
+import 'package:lab1/screens/Home.dart';
 
 
 void main() {

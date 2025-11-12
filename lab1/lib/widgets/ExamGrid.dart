@@ -17,10 +17,10 @@ class _ExamGridState extends State<ExamGrid> {
   Widget build(BuildContext context) {
     return GridView.builder(
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2,
-          mainAxisSpacing: 4,
-          crossAxisSpacing: 4,
-          childAspectRatio: 200/244
+          crossAxisCount: 1,
+          mainAxisSpacing: 15,
+          crossAxisSpacing: 7,
+          childAspectRatio: 100/40
       ),
       itemCount: widget.exams.length,
       physics: BouncingScrollPhysics(),
