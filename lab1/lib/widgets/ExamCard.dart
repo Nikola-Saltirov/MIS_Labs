@@ -27,7 +27,7 @@ class ExamCard extends StatelessWidget {
               Icon(
                 Icons.access_time_outlined,
                 size: 36,
-                color: exam.isPassed()?Colors.grey.shade600:Colors.green.shade700,
+                color: exam.isPassed()?Colors.grey.shade600:Colors.green.shade300,
               ),
               const SizedBox(width: 16),
               Expanded(
@@ -42,22 +42,27 @@ class ExamCard extends StatelessWidget {
                         color: Colors.black87,
                       ),
                     ),
-                    const SizedBox(height: 26),
+                    const SizedBox(height: 10),
                     Row(
                       children: [
-                        Icon(Icons.calendar_today, size: 16, color: Colors.black54),
+                        Icon(Icons.calendar_today, size: 17, color: Colors.black54),
                         const SizedBox(width: 4),
                         Text(
                           exam.getFormattedDate(),
                           style: const TextStyle(fontSize: 17, color: Colors.black54),
                         ),
                       ],
-
                     ),
-                    const SizedBox(height: 8),
-                    Text(
-                      exam.getRooms(),
-                      style: const TextStyle(fontSize: 17, color: Colors.black54)
+                    const SizedBox(height: 6),
+                    Row(
+                      children: [
+                        Icon(Icons.door_front_door_outlined, size: 17, color: Colors.black54),
+                        const SizedBox(width: 4),
+                        Text(
+                            exam.getRooms(),
+                            style: const TextStyle(fontSize: 17, color: Colors.black54)
+                        ),
+                      ],
                     ),
                   ],
                 ),

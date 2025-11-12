@@ -51,7 +51,7 @@ class DetailsPage extends StatelessWidget {
                     itemCount: exam.rooms.length,
                     itemBuilder: (context, index) {
                       return Card(
-                        color: Colors.greenAccent.shade100,
+                        color: exam.isPassed()?Colors.grey.shade400:Colors.green.shade300,
                         child: ListTile(
                           leading: const Icon(Icons.meeting_room),
                           title: Text(exam.rooms[index]),

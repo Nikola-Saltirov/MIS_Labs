@@ -26,17 +26,17 @@ class _MyHomePageState extends State<MyHomePage> {
     roomsTemp.add("B 2.3");
     roomsTemp.add("B 1");
     exams = [
-      Exam(title: "AAAAAAAAAAAAAAAAAAAAAAAAA", date: DateTime(2025,1,20,10,0), rooms: roomsTemp),
-      Exam(title: "2", date: DateTime(2025,1,20,10,0), rooms: roomsTemp),
-      Exam(title: "3", date: DateTime(2025,1,20,10,0), rooms: roomsTemp),
-      Exam(title: "4", date: DateTime(2025,1,20,10,0), rooms: roomsTemp),
-      Exam(title: "5", date: DateTime(2025,1,20,10,0), rooms: roomsTemp),
-      Exam(title: "6", date: DateTime(2025,1,20,10,0), rooms: roomsTemp),
-      Exam(title: "7", date: DateTime(2025,11,20,10,0), rooms: roomsTemp),
-      Exam(title: "8", date: DateTime(2025,1,20,10,0), rooms: roomsTemp),
-      Exam(title: "9", date: DateTime(2025,12,20,10,0), rooms: roomsTemp),
-      Exam(title: "10", date: DateTime(2025,12,20,10,0), rooms: roomsTemp),
-      Exam(title: "11", date: DateTime(2025,12,20,10,0), rooms: roomsTemp),
+      Exam(title: "Софтверски квалитет и тестирање", date: DateTime(2025,5,22,10,0), rooms: roomsTemp),
+      Exam(title: "Машинско учење", date: DateTime(2025,5,20,10,0), rooms: roomsTemp),
+      Exam(title: "Интегрирани системи", date: DateTime(2025,1,24,10,0), rooms: roomsTemp),
+      Exam(title: "Дизајн на интеракцијата човек-компјутер", date: DateTime(2025,1,20,10,0), rooms: roomsTemp),
+      Exam(title: "Дизајн и архитектура на софтвер", date: DateTime(2025,1,20,10,0), rooms: roomsTemp),
+      Exam(title: "Вовед во науката за податоци", date: DateTime(2025,1,20,10,0), rooms: roomsTemp),
+      Exam(title: "Веб програмирање", date: DateTime(2025,11,20,10,0), rooms: roomsTemp),
+      Exam(title: "Бази на податоци", date: DateTime(2025,1,20,10,0), rooms: roomsTemp),
+      Exam(title: "Оперативни системи", date: DateTime(2025,12,20,10,0), rooms: roomsTemp),
+      Exam(title: "Дизајн на алгоритми", date: DateTime(2025,12,20,10,0), rooms: roomsTemp),
+      Exam(title: "Визуелно програмирање", date: DateTime(2025,12,20,10,0), rooms: roomsTemp),
     ];
 
     exams.sort((a, b) => a.date.compareTo(b.date));
